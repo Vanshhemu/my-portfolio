@@ -2,7 +2,7 @@ import Header from "@/components/ui/header";
 import Footer from "@/components/ui/footer";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
-export default function about() {
+export default function About() {
 	return (
 		<>
 			<div>
@@ -15,9 +15,11 @@ export default function about() {
 					className="max-w-3xl mx-auto my-16 px-4 sm:px-6 lg:px-8"
 				>
 					<h2 className="text-2xl font-semibold mb-6">🧑‍💻 About Me</h2>
+
 					<p className="text-gray-400 mb-6 text-sm sm:text-base leading-relaxed">
-						I'm <span className="text-[#facc15] font-medium">Aditya Pant</span>,
-						a B.Tech CSE student at{" "}
+						{"I'm"}{" "}
+						<span className="text-[#facc15] font-medium">Aditya Pant</span>, a
+						B.Tech CSE student at{" "}
 						<span className="text-[#94d2bd] font-medium">CGC Landran</span> with
 						a strong passion for building on the web. I specialize in full stack
 						development using tools like TypeScript, JavaScript, React.js,
@@ -31,8 +33,9 @@ export default function about() {
 						</span>
 						, and a team member of the{" "}
 						<span className="text-[#22d3ee] font-medium">Innovation Club</span>.
-						I enjoy team-driven problem solving, and love exploring new places
-						while freelancing on web projects to sharpen my skills.
+						{
+							" I enjoy team-driven problem solving, and love exploring new places while freelancing on web projects to sharpen my skills."
+						}
 					</p>
 
 					{/* Education */}
@@ -49,7 +52,8 @@ export default function about() {
 						</div>
 						<div>
 							<p className="font-medium">
-								🎓 Chandigarh College of Engineering & Technology (Diploma Wing)
+								🎓 Chandigarh College of Engineering &amp; Technology (Diploma
+								Wing)
 							</p>
 							<p className="text-sm text-gray-400">
 								Diploma, Computer Science and Engineering | 2022 – 2025 |
@@ -95,6 +99,7 @@ export default function about() {
 						</div>
 					</div>
 				</section>
+
 				<footer>
 					<Footer />
 				</footer>
