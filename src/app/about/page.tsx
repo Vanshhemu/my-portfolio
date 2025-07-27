@@ -90,13 +90,6 @@ export default function About() {
 								Ex-Cadet | Participated in multiple NCC camps and parades
 							</p>
 						</div>
-
-						<div>
-							<p className="font-medium">🏀 Basketball Player</p>
-							<p className="text-sm text-gray-400 mb-2">
-								Represented school and college at regional levels in tournaments
-							</p>
-						</div>
 					</div>
 				</section>
 
