@@ -22,12 +22,14 @@ export default function project() {
 								subtitle="The Asian Kid (under Development)"
 								description="A full-featured coaching website that connects students and teachers, creating a smooth, engaging learning environment."
 								tech={["Next.js", "Tailwind", "postgreSQL", "Node.js"]}
+								url=""
 							/>
 							<ProjectCard
 								title="Time Tracker"
 								subtitle="Time app"
 								description="Track the time and note down the tasks done during that time."
 								tech={["React", "TypeScript", "Tailwind", "nodejs", "mongDB"]}
+								url="https://timetrackerr.vercel.app"
 							/>
 						</div>
 					</section>

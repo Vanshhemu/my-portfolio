@@ -1,8 +1,10 @@
+import Link from "next/link";
 interface ProjectCardProps {
 	title: string;
 	subtitle: string;
 	description: string;
 	tech: string[];
+	url: string;
 }
 
 export default function ProjectCard({
@@ -10,13 +12,18 @@ export default function ProjectCard({
 	subtitle,
 	description,
 	tech,
+	url,
 }: ProjectCardProps) {
 	return (
 		<div className="bg-gradient-to-br from-[#1a1a1a] to-[#111] p-6 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 group">
 			<div className="flex flex-col gap-2">
-				<h3 className="text-base sm:text-lg font-semibold text-white group-hover:text-[#00b4d8] transition">
+				<Link
+					href={url}
+					target="_blank"
+					className="text-base sm:text-lg font-semibold text-white group-hover:text-[#00b4d8] transition"
+				>
 					{title}
-				</h3>
+				</Link>
 				<p className="text-sm text-gray-400">{subtitle}</p>
 				<p className="text-gray-300 mt-2 mb-4">{description}</p>
 				<div className="flex flex-wrap gap-2">

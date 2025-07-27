@@ -16,7 +16,7 @@ export default function about() {
 				>
 					<h2 className="text-2xl font-semibold mb-6">🧑‍💻 About Me</h2>
 					<p className="text-gray-400 mb-6 text-sm sm:text-base leading-relaxed">
-						I'm <span className="text-[#f87171] font-medium">Aditya Pant</span>,
+						I'm <span className="text-[#facc15] font-medium">Aditya Pant</span>,
 						a B.Tech CSE student at{" "}
 						<span className="text-[#94d2bd] font-medium">CGC Landran</span> with
 						a strong passion for building on the web. I specialize in full stack

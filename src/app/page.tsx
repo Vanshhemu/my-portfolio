@@ -43,11 +43,11 @@ export default function Home() {
 						</h3>
 						<p className="text-gray-400 border-b border-gray-800 pb-6">
 							I'm currently working as a{" "}
-							<span className="text-[#22d3ee] font-medium">
-								Full Stack Developer
-							</span>{" "}
-							<span className="text-[#00b4d8] font-medium">The Asian Kid</span>,
-							where we're building a coaching platform to connect teachers and
+							<span className=" font-medium">Full Stack Developer</span>{" "}
+							<span className="inline-block bg-[#00b4d8]/10 text-[#00b4d8] font-medium px-3 py-[1px] m-1 rounded-md text-sm border border-[#00b4d8]">
+								The Asian Kid
+							</span>
+							, where we're building a coaching platform to connect teachers and
 							students. The goal is to create a friendly and efficient
 							environment that makes both teaching and learning smooth,
 							accessible, and engaging. From backend logic to frontend UI, I'm
@@ -62,7 +62,7 @@ export default function Home() {
 						</h3>
 						<p className="text-gray-400">
 							I'm{" "}
-							<span className="text-[#f87171] font-medium">Aditya Pant</span>, a
+							<span className="text-[#facc15] font-medium">Aditya Pant</span>, a
 							B.Tech CSE student at{" "}
 							<span className="text-[#94d2bd] font-medium">CGC Landran</span>{" "}
 							with a strong passion for building on the web. I specialize in
