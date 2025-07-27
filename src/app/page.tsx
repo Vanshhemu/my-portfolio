@@ -4,7 +4,10 @@ import Footer from "@/components/ui/footer";
 export default function Home() {
 	return (
 		<div>
-			<Header />
+			<header>
+				<Header />
+			</header>
+
 			<div className="min-h-screen scroll-smooth bg-[#0f0f0f] text-white px-6 py-10 md:px-20 font-sans">
 				{/* Navbar */}
 
@@ -43,7 +46,6 @@ export default function Home() {
 							<span className="text-[#22d3ee] font-medium">
 								Full Stack Developer
 							</span>{" "}
-							at{" "}
 							<span className="text-[#00b4d8] font-medium">The Asian Kid</span>,
 							where we're building a coaching platform to connect teachers and
 							students. The goal is to create a friendly and efficient
@@ -99,9 +101,11 @@ export default function Home() {
 						</div>
 					</div> */}
 					</section>
-					<Footer />
 				</div>
 			</div>
+			<footer>
+				<Footer />
+			</footer>
 		</div>
 	);
 }

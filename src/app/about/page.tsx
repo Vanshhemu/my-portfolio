@@ -1,14 +1,21 @@
 import Header from "@/components/ui/header";
 import Footer from "@/components/ui/footer";
+import "@fortawesome/fontawesome-free/css/all.min.css";
+
 export default function about() {
 	return (
 		<>
 			<div>
-				<Header />
-				<section id="about" className="max-w-3xl mx-auto mt-16">
-					<h2 className="text-2xl font-semibold mb-6">🧑‍💻 About Me</h2>
+				<header>
+					<Header />
+				</header>
 
-					<p className="text-gray-400 mb-6">
+				<section
+					id="about"
+					className="max-w-3xl mx-auto my-16 px-4 sm:px-6 lg:px-8"
+				>
+					<h2 className="text-2xl font-semibold mb-6">🧑‍💻 About Me</h2>
+					<p className="text-gray-400 mb-6 text-sm sm:text-base leading-relaxed">
 						I'm <span className="text-[#f87171] font-medium">Aditya Pant</span>,
 						a B.Tech CSE student at{" "}
 						<span className="text-[#94d2bd] font-medium">CGC Landran</span> with
@@ -16,8 +23,8 @@ export default function about() {
 						development using tools like TypeScript, JavaScript, React.js,
 						Next.js, Tailwind CSS, Node.js, PostgreSQL, and MongoDB.
 					</p>
-					<p className="text-gray-400 mb-12">
-						Outside of tech, I'm an{" "}
+
+					<p className="text-gray-400 mb-12 text-sm sm:text-base leading-relaxed">
 						<span className="text-[#f59e0b] font-medium">ex-NCC cadet</span>, a{" "}
 						<span className="text-[#f472b6] font-medium">
 							basketball player
@@ -87,8 +94,10 @@ export default function about() {
 							</p>
 						</div>
 					</div>
-					<Footer />
 				</section>
+				<footer>
+					<Footer />
+				</footer>
 			</div>
 		</>
 	);

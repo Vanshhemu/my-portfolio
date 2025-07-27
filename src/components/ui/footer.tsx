@@ -1,9 +1,9 @@
 export default function Footer() {
 	return (
-		<>
-			<div>
+		<footer className="bg-[#0f0f0f] text-white px-6 py-12 md:px-20">
+			<div className="max-w-3xl mx-auto flex flex-col items-center text-center gap-6">
 				{/* CTA */}
-				<p className="mt-8 text-sm text-gray-400">
+				<p className="text-sm text-gray-400">
 					Want to collaborate or just say hi?{" "}
 					<a
 						href="mailto:pantanupam05@gmail.com?subject=Hello%20Aditya"
@@ -12,7 +12,9 @@ export default function Footer() {
 						Let’s connect.
 					</a>
 				</p>
-				<div className="flex gap-5 mt-6 text-xl text-gray-400">
+
+				{/* Social Links */}
+				<div className="flex gap-5 text-xl text-gray-400">
 					<a
 						href="https://x.com/adityapant_"
 						target="_blank"
@@ -50,7 +52,12 @@ export default function Footer() {
 						<i className="fa-brands fa-github"></i>
 					</a>
 				</div>
+
+				{/* Optional Footer Note */}
+				<p className="text-xs text-gray-600 mt-4">
+					© {new Date().getFullYear()} Aditya Pant.
+				</p>
 			</div>
-		</>
+		</footer>
 	);
 }

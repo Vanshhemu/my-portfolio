@@ -14,7 +14,7 @@ export default function ProjectCard({
 	return (
 		<div className="bg-gradient-to-br from-[#1a1a1a] to-[#111] p-6 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 group">
 			<div className="flex flex-col gap-2">
-				<h3 className="text-lg font-semibold text-white group-hover:text-[#00b4d8] transition">
+				<h3 className="text-base sm:text-lg font-semibold text-white group-hover:text-[#00b4d8] transition">
 					{title}
 				</h3>
 				<p className="text-sm text-gray-400">{subtitle}</p>
