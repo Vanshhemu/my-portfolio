@@ -5,14 +5,14 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 export default function About() {
 	return (
 		<>
-			<div>
+			<div className="min-h-screen bg-[#0f0f0f] text-white">
 				<header>
 					<Header />
 				</header>
 
 				<section
 					id="about"
-					className="max-w-3xl mx-auto my-16 px-4 sm:px-6 lg:px-8"
+					className="max-w-3xl mx-auto py-16 px-4 sm:px-6 lg:px-8"
 				>
 					<h2 className="text-2xl font-semibold mb-6">🧑‍💻 About Me</h2>
 
