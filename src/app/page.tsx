@@ -15,7 +15,7 @@ export default function Home() {
 					<section id="home" className="flex flex-col items-start">
 						<h2 className="text-3xl sm:text-4xl font-bold mb-2">
 							👋 Hey, I&apos;m{" "}
-							<span className="text-[#facc15]">Aditya Pant</span>
+							<span className="text-[#facc15]">Vansh Kumar</span>
 						</h2>
 
 						<p className="text-gray-500 text-sm mb-3">
@@ -25,7 +25,7 @@ export default function Home() {
 
 						<p className="text-gray-400 border-b border-gray-800 pb-6">
 							I&apos;m a software developer from{" "}
-							<span className="">Uttarakhand, India</span> who loves turning
+							<span className="">New Delhi, India</span> who loves turning
 							ideas into code.{" "}
 							<span className="font-medium">
 								Evolving with intention, not perfection
@@ -61,22 +61,18 @@ export default function Home() {
 						</h3>
 						<p className="text-gray-400">
 							I&apos;m{" "}
-							<span className="text-[#facc15] font-medium">Aditya Pant</span>, a
-							B.Tech CSE student at{" "}
-							<span className="text-[#94d2bd] font-medium">CGC Landran</span>{" "}
+							<span className="text-[#facc15] font-medium">Vansh Kumar</span>, a
+							12th grade student at{" "}
+							<span className="text-[#94d2bd] font-medium">JBM PUBLIC SCHOOL</span>{" "}
 							with a strong passion for building on the web. I specialize in
 							full stack development using tools like TypeScript, JavaScript,
-							React.js, Next.js, Tailwind CSS, Node.js, PostgreSQL, and MongoDB.
+							React.js, Next.js, Tailwind CSS, Node.js,and MongoDB.
 						</p>
 						<p className="text-gray-400 mt-4">
-							Outside of tech, I&apos;m an{" "}
-							<span className="text-[#f59e0b] font-medium">ex-NCC cadet</span>{" "}
-							with multiple camps attended, and an{" "}
-							<span className="text-[#f472b6] font-medium">
-								active sportsperson
-							</span>{" "}
-							who has represented my college at national, state, and regional
-							levels. I also love traveling to new places and I&apos;m currently
+							Other than tech, I&apos;{" "}
+							
+							represented myself at national, state, and regional
+							levels in hackathons. I also love traveling to new places , guitar , cricket , football , badminton , riding and I&apos;m currently
 							working on freelance projects to sharpen my skills.
 						</p>
 					</section>

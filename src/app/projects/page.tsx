@@ -25,11 +25,18 @@ export default function project() {
 								url=""
 							/>
 							<ProjectCard
-								title="Time Tracker"
-								subtitle="Time app"
+								title="Raj Bihari"
+								subtitle="Clothing brand"
 								description="Track the time and note down the tasks done during that time."
 								tech={["React", "TypeScript", "Tailwind", "nodejs", "mongDB"]}
-								url="https://timetrackerr.vercel.app"
+								url="https://rajbihari.in/"
+							/>
+							<ProjectCard
+								title="Global investor reality"
+								subtitle="Real Estate(under development)"
+								description="Track the time and note down the tasks done during that time."
+								tech={["React", "TypeScript", "Tailwind", "nodejs", "mongDB"]}
+								url=""
 							/>
 						</div>
 					</section>

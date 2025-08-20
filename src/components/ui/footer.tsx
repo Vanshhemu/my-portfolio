@@ -6,7 +6,7 @@ export default function Footer() {
 				<p className="text-sm text-gray-400">
 					Want to collaborate or just say hi?{" "}
 					<a
-						href="mailto:pantanupam05@gmail.com?subject=Hello%20Aditya"
+						href="mailto:vanshtechtales@gmail.com?subject=Hello%20Vansh"
 						className="text-[#00b4d8] underline"
 					>
 						Let’s connect.
@@ -16,7 +16,7 @@ export default function Footer() {
 				{/* Social Links */}
 				<div className="flex gap-5 text-xl text-gray-400">
 					<a
-						href="https://x.com/adityapant_"
+						href="https://x.com/vanshtechtales"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="hover:text-[#1d9bf0] transition"
@@ -25,7 +25,7 @@ export default function Footer() {
 						<i className="fa-brands fa-x-twitter"></i>
 					</a>
 					<a
-						href="https://www.instagram.com/adityapant_/"
+						href="https://www.instagram.com/hemukkc/"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="hover:text-[#e1306c] transition"
@@ -34,7 +34,7 @@ export default function Footer() {
 						<i className="fa-brands fa-instagram"></i>
 					</a>
 					<a
-						href="https://www.linkedin.com/in/aditya-pant-948a4b287/"
+						href="https://www.linkedin.com/in/vansh-kumar-226020268/"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="hover:text-[#0a66c2] transition"
@@ -43,7 +43,7 @@ export default function Footer() {
 						<i className="fa-brands fa-linkedin-in"></i>
 					</a>
 					<a
-						href="https://github.com/AdityaaPant"
+						href="https://github.com/Vanshhemu"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="hover:text-[#f5f5f5] transition"
@@ -55,7 +55,7 @@ export default function Footer() {
 
 				{/* Optional Footer Note */}
 				<p className="text-xs text-gray-600 mt-4">
-					© {new Date().getFullYear()} Aditya Pant.
+					© {new Date().getFullYear()} Vansh Kumar.
 				</p>
 			</div>
 		</footer>
